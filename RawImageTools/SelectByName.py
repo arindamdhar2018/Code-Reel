@@ -6,11 +6,10 @@ from rawlmageTools.helpers import deselectAllNodes
 
 def selectByNodeName(searchString): 
 
-	""" Iterate an selected nodes and searches their node name for matching criteria to 	the specified search string. 
+	""" Iterate an selected nodes and searches their node name for matching criteria to the specified search string. 
 
 	Args:
 		searchString (str): String to use as search criteria 
-
 	"""
 
 	# Define list of nodes to search through
@@ -32,4 +31,4 @@ def main():
 	search = panel.show() 
 	if search:
 		searchString = panel.value('Search:') 
-		selectByNodeName(searchString.replace('*', '.+').replace('_', "\_')) 
+		selectByNodeName(searchString.replace('*', '.+').replace('_', '\_')) 
