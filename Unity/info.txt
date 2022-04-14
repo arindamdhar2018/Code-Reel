@@ -1,1 +1,2 @@
 The application is based on cognitive assesment. Where user has to track the animation. And we need to record the response time and save it to databese as json file.
+I have developed the application from design to development.
