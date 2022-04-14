@@ -1,0 +1,20 @@
+QMenu{color: rgb(0, 0, 0);
+background-color: rgb(130, 130, 130);
+margin: 4px;
+border: 1px solid #555555;
+
+}
+QMenu::item {
+    padding: 3px 25px 3px 20px;
+    border: 1px solid transparent; /* reserve space for selection border */
+}
+QMenu::item:selected {
+    border-color: rgba(220, 220, 220,150);
+    background: rgba(220, 220, 220, 150);
+    font-weight: bold;
+}
+
+QFrame{
+border: 1px solid #000000;
+border-radius: 2px;
+}
