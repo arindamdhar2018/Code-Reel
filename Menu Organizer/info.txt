@@ -1,1 +1,1 @@
-This is a demo tool, which will create a pyside widgets to create nuke tools using frag and drop. We can pass a list of nodes for which it will create a widgets menu
+This is a demo tool, which will create a pyside widgets to create nuke tools using drag and drop. We can pass a list of nodes for which it will create a widgets menu
