@@ -26,18 +26,6 @@ def selectByMetadata(searchString):
 		bdNode.selectNodes()
 		backdrops[name]['kids'] = nuke.selectedNodes() 
 
-		# Define primary Read Node 
-		primeReadNode = None
-		for readNode in nuke.selectedNodes('Read'): 
-			fileInput = readNode.knob('file').value()
-			fileName = os.path.splitext(os.path.basename(fileInput))[0]
-			if fileName == label: 
-				primeReadNode = readNode
-				
-		# Flatten metadata 
-		backdrops[name]['metadata'] = []
-		if primeReadNode is None: 
-			continue 
 
 		# Define primary Read Node 
 		primeReadNode = None 
