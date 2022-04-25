@@ -1,7 +1,7 @@
 import nuke 
 import re 
 
-from rawlmageTools.helpers import deselectAllNodes 
+from rawlmageTools.helper import deselectAllNodes 
 
 
 def selectByNodeName(searchString): 
