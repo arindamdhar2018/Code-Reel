@@ -2,7 +2,7 @@ import nuke
 import os 
 import re 
 
-from rawImageTools.helpers import deselectAllNodes 
+from rawImageTools.helper import deselectAllNodes 
 
 def selectByMetadata(searchString):
 	"""
