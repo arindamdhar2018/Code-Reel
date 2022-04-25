@@ -27,7 +27,7 @@ def main():
 	"""
 
 	panel = nuke.Panel('Select by Node Name') 
-	panel.addSingleLinelnput('Search:', ") 
+	panel.addSingleLineInput('Search:', ") 
 	search = panel.show() 
 	if search:
 		searchString = panel.value('Search:') 
