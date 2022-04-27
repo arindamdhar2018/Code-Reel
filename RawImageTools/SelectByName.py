@@ -1,7 +1,7 @@
 import nuke 
 import re 
 
-from rawlmageTools.helper import deselectAllNodes 
+from helper import deselectAllNodes 
 
 
 def selectByNodeName(searchString): 
@@ -32,3 +32,6 @@ def main():
 	if search:
 		searchString = panel.value('Search:') 
 		selectByNodeName(searchString.replace('*', '.+').replace('_', '\_')) 
+				 
+if __name__ == "__main__":
+    main()
