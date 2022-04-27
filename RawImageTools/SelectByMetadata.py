@@ -2,7 +2,7 @@ import nuke
 import os 
 import re 
 
-from rawImageTools.helper import deselectAllNodes 
+from helper import deselectAllNodes 
 
 def selectByMetadata(searchString):
 	"""
@@ -68,5 +68,6 @@ def main():
 		searchString = panel.value('Search:') 
 		selectByMetadata(searchString.replace('*','.+')) 
 
-
+if __name__ == "__main__":
+    main()
 
